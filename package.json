@@ -1,0 +1,27 @@
+{
+  "name": "lambda_proxy_response",
+  "version": "1.0.0",
+  "description": "This is a small wrapper function that correctly handles API Gateway Lambda Proxy response codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyharvs/lambda_proxy_response.git"
+  },
+  "keywords": [
+    "lambda",
+    "api",
+    "gateway",
+    "response",
+    "proxy",
+    "aws"
+  ],
+  "author": "Harvard Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyharvs/lambda_proxy_response/issues"
+  },
+  "homepage": "https://github.com/heyharvs/lambda_proxy_response#readme"
+}
