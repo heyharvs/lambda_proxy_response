@@ -3,7 +3,7 @@
 // as per spec at 
 module.exports.error = (code, error, callback) => {
   let data = error;
-  if (error.message) {
+  if (error && error.message) {
     data = error.message
   }
   callback(null, {
