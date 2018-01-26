@@ -16,8 +16,12 @@ module.exports.error = (code, error, callback) => {
 // optional for successfui requests
 module.exports.ok = (code, data, callback) => {
   callback(null, {
-    success: true,
-    code,
-    data
+    isBase64Encoded: false,
+    statusCode: code ? code : 200,
+    body: JSON.stringify({
+      success: false,
+      code,
+      data
+    })
   });
 };
