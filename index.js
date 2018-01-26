@@ -12,7 +12,7 @@ module.exports.error = (code, error, callback) => {
     body: JSON.stringify({
       success: false,
       code,
-      error
+      data
     })
   });
 };

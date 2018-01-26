@@ -1,6 +1,6 @@
 {
   "name": "lambda_proxy_response",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is a small wrapper function that correctly handles API Gateway Lambda Proxy response codes",
   "main": "index.js",
   "scripts": {
