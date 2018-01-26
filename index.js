@@ -14,9 +14,10 @@ module.exports.error = (code, error, callback) => {
 };
 
 // optional for successfui requests
-module.exports.ok = (data, callback) => {
+module.exports.ok = (code, data, callback) => {
   callback(null, {
     success: true,
+    code,
     data
   });
 };
